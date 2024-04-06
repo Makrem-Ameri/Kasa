@@ -1,0 +1,47 @@
+.footer
+{
+    
+    height: 150px ;
+    background-color: #000000;
+    text-align: center;
+   display: grid;
+   place-items: center;
+   margin-top:1rem;
+    
+}
+@media screen and (max-width:768px) {
+    .footer{
+        height: 100px;
+        margin-top: 2rem;
+    }
+    
+}
+.footer img{
+    width: 150px;
+    
+    
+    
+}
+
+@media screen and (max-width:760px){
+    .footer img
+    {
+        width: 35%;
+       
+    }
+}
+.footer_text
+{
+    font-weight: 500;
+    font-size: 24 px;
+    font-family: "Montserrat","sans-sherif";
+    color:#FFFFFF;
+    
+}
+
+@media screen and (max-width:760px){
+    .footer_text{
+        font-size:14px;
+    }
+    
+}

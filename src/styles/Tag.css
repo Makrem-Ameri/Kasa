@@ -1,0 +1,28 @@
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    gap: 10px;
+ }
+  
+.tag {
+    width:auto;
+    height:25px ;
+    background-color:#FF6060;
+    align-items: center;
+    display:grid;
+    text-align: center;
+    padding-inline:10px;
+    
+    color:#FFFF;
+    border-radius: 10px;
+  }
+  @media screen and (max-width:300px){
+    .tag{
+      
+      height: auto;
+      padding: 0.3rem;
+    }
+    
+  }
+  

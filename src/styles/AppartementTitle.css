@@ -1,0 +1,84 @@
+
+.titles 
+{
+    font-weight: 500;
+    color:#FF6060;
+    font-size: 26px;
+    margin-left: 10px;
+    
+}
+.appartement_location h2{
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.appartement_title
+{
+    display:flex;
+    
+}
+
+.appartement_tags
+{
+    display:flex;
+   gap: 1rem;
+  
+  
+
+}
+ 
+.appartement_title{
+    display: flex;
+    justify-content: space-between;
+}
+.appartement_location
+{
+    display:block;
+    
+}
+
+
+.Appartement_badge
+{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    
+}
+
+.appartement_caract
+{
+     width: 97%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    margin-top: 1.8rem;
+    margin-left:5px;
+    
+    
+    
+}
+.appart_description
+{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    align-items: center;
+    
+}
+@media screen and (max-width:760px) {
+    .appart_description{
+    display: block;
+    width: 97%;
+    padding-inline: 1rem;
+    } 
+}
+.hoste_rate
+{
+  
+    height:100px;
+    
+    
+}

@@ -1,0 +1,26 @@
+
+
+.banner {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../assets/banner.png");
+    min-height: 140px;
+    margin: auto;
+    border-radius:25px;
+    display: grid;
+    place-items: center;
+    color:#F6F6F6;
+    font-size:24px ;
+    font-family: "montserrat";
+    font-weight: 500;
+    margin-bottom: 2rem;
+    width: 98%;
+    &::before {
+      position: absolute;
+      border-radius: 2rem;
+      content: "";
+      inset: 0;
+      
+    }
+  }

@@ -1,0 +1,20 @@
+.gallery
+{
+     display: flex;
+     flex-wrap: wrap;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    width:97%;
+    height:auto;
+    padding-inline:1rem;
+    margin:0 auto;
+    margin-top: 2rem;
+    padding-inline: 0.5rem;
+
+}
+@media screen and (max-width:760px) {
+    .gallery{
+        width: 96%;
+    }
+    
+}

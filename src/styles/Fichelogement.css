@@ -1,0 +1,24 @@
+.fichelogement
+{
+    display: block;
+    
+}
+main
+{
+    
+    display: flex;
+    width:97%;
+    padding-left:0px ;
+    
+    
+}
+
+@media screen and (max-width:760px) {
+    main{
+        display: block;
+        width:98%;
+  margin-bottom: 1.6rem;
+  
+    }
+    
+}

@@ -1,0 +1,80 @@
+
+.image_banner{
+   
+   position: relative;
+   height: 213px;
+   width: 98%;
+   margin: 0;
+   
+   
+}
+
+.image_banner img
+{
+     
+     width:100%;
+     height:213px;
+     object-fit: cover;
+     border-radius: 10px;
+     box-shadow: rgb(149, 157, 165'/'20%) 0px 8px 24px;
+     
+    
+    
+  
+}
+
+
+.slide-hidden
+{
+    display:none;
+    height: 213px;
+    
+}
+.chevron-left
+
+{
+    display: flex;
+position: absolute;
+left:10px;
+color: #FFFF;
+font-size:3rem;
+top:12.75%;
+z-index: 10;
+cursor:pointer;
+position:absolute;
+left:2%;
+
+}
+@media screen and (max-width:760px) {
+    .chevron-left{
+        font-size: 2rem;
+        position: absolute;
+        left: 2%;
+        top:25% ;
+        color:#FFFF;
+    }
+    
+}
+.chevron-rigth
+
+{ font-size:3rem;
+   display:flex;
+position: absolute;
+right:2%;
+top: 12.75%;
+color: #FFFF;
+z-index: 10;
+cursor: pointer;
+
+}
+
+@media screen and (max-width:760px) {
+    .chevron-rigth{
+        font-size: 2rem;
+        position: absolute;
+        right:1.9%;
+        top:25% ;
+        color:#FFFF;
+    }
+    
+}

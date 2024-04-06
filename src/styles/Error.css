@@ -1,0 +1,45 @@
+.error{
+    display: block;
+    justify-content: space-between;
+    height: 100vh;
+}
+.title_error
+{
+    font-weight: 700;
+    font-size:288px;
+    text-align: center;
+    color:#FF6060
+}
+@media screen and (max-width:760px){
+    .title_error{
+        font-size: 96px;
+    }
+}
+.text_error
+{
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    color:#FF6060
+}
+@media screen and (max-width:760px){
+    .text_error{
+        font-size: 18px;
+        text-align: center;
+        
+        
+    }
+}
+.link_accueil
+{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF6060;
+    text-align: center;
+    margin-top: 2rem;
+}
+@media screen and (max-width:760px){
+    .link_accueil{
+        font-size: 14px;
+    }
+}

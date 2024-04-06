@@ -1,0 +1,13 @@
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+    
+    
+}
+
+.logement
+{
+    
+    margin-top: 1rem;
+}
