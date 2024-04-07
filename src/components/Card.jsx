@@ -7,7 +7,7 @@ function Card (props){
     return(
         jsonData.map((logement)=>(
             
-               <div className="card" key={jsonData.id}>
+               <div className="card" key={logement.id}>
                   <Link to={`/Logement/${logement.id}` }>
                 <img src={logement.cover} alt=""/>
                 <div className="title_appartement">{logement.title} </div>  
