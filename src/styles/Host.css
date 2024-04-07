@@ -10,6 +10,11 @@
     font-weight: 500;
     font-size: 18px;
 }
+@media screen and (max-width:500px) {
+    .proprietaire
+    {
+        font-size: 12px;
+    }
 
 .proprietaire img{
     width:30px;
