@@ -13,6 +13,7 @@
     .footer{
         height: 100px;
         margin-top: 2rem;
+         padding: 0;
     }
     
 }
@@ -27,7 +28,8 @@
     .footer img
     {
         width: 35%;
-       
+        object-fit: cover;
+        margin-top: 1rem;
     }
 }
 .footer_text
@@ -42,6 +44,7 @@
 @media screen and (max-width:760px){
     .footer_text{
         font-size:14px;
+        font-weight: 600;
     }
     
 }
