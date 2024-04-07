@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Route from "./Route";
+import Route from "./route/Route.jsx";
 //import { StrictMode } from "react";
 // ReactDOM pour s'attacher à notre HTML.
 const root = ReactDOM.createRoot(document.getElementById("root"));

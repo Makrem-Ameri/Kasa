@@ -2,11 +2,11 @@ import React from 'react';
 //import ReactDOM from 'react-dom/client';
 import{BrowserRouter as Router, Routes ,Route} from 'react-router-dom'
 //import AppartementDetails from './components/AppartementDetails';
-import Fichelogement from './pages/Fichelogement'
+import Fichelogement from '../pages/Fichelogement'
  
-import Error from './pages/Error' 
-import Home from './pages/Home'
-import Apropos from './pages/Apropos'
+import Error from '../pages/Error' 
+import Home from '../pages/Home'
+import Apropos from '../pages/Apropos'
 function App(){
 
 //const root = ReactDOM.createRoot(document.getElementById('root'));
